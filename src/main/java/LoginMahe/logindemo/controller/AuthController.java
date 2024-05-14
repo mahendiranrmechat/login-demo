@@ -13,7 +13,7 @@ public class AuthController {
     LoginService loginService;
 
 
-    @PostMapping("login")
+    @GetMapping("login")
     public String loginMethod(){
          
          return loginService.loginMethod();
