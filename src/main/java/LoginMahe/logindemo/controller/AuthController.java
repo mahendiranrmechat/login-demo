@@ -14,9 +14,8 @@ public class AuthController {
 
 
     @PostMapping("login")
-    public String loginMethod(@RequestBody User user){
-         String method=loginService.loginMethod("jagathis","12345");
-
-         return method;
+    public String loginMethod(){
+         
+         return loginService.loginMethod();
     }
 }
