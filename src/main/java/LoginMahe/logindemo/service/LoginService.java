@@ -7,17 +7,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 @Service
 public class LoginService {
-    @Autowired
-    User user;
-    public String loginMethod(String userName,String password){
+   
+    public String loginMethod(){
 
 
 
-        if (userName.equalsIgnoreCase("jagathis")&&password.equalsIgnoreCase("12345")){
-            return "Hii Login Sucess";
-        }
+      String message="hii";
 
-     return "Login Fail";
+     return message;
     }
 
 
