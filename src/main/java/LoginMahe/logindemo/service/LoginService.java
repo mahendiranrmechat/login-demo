@@ -12,7 +12,7 @@ public class LoginService {
 
 
 
-      String message="hi mahe";
+      String message="welcome!";
 
      return message;
     }
